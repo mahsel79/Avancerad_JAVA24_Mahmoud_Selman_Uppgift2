@@ -8,12 +8,24 @@ import java.util.Scanner;
 
 public class StudentManagementSystem {
 
+    // Step 1: Static variable to hold the single instance
+    private static StudentManagementSystem instance;
+
     private final StudentService studentService;
     private final Scanner scanner;
 
-    public StudentManagementSystem() {
+    // Step 2: Private constructor to prevent instantiation
+    private StudentManagementSystem() {
         this.studentService = new StudentService();
         this.scanner = new Scanner(System.in);
+    }
+
+    // Step 3: Public static method to provide access to the instance
+    public static StudentManagementSystem getInstance() {
+        if (instance == null) {
+            instance = new StudentManagementSystem();
+        }
+        return instance;
     }
 
     public void start() {
@@ -91,6 +103,7 @@ public class StudentManagementSystem {
     }
 
     public static void main(String[] args) {
-        new StudentManagementSystem().start();
+        // Step 4: Use the Singleton instance to start the system
+        StudentManagementSystem.getInstance().start();
     }
 }
