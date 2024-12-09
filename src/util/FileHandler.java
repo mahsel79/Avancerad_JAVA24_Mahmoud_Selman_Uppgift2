@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FileHandler {
 
-    private static final String FILE_PATH = "src/main/resources/students.txt";
+    private static final String FILE_PATH = "src/resources/students.txt";
 
     public static List<Student> readStudentsFromFile() {
         List<Student> students = new ArrayList<>();
