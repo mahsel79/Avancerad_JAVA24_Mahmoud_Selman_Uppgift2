@@ -1,0 +1,11 @@
+1,Fredrik Adolfsson,VG
+2,Sorayya Ahmadi,VG
+3,Iara Alrawi,VG
+4,Johanna Bredinger,VG
+5,Camden Griffin,VG
+6,Frida Hassel,VG
+7,Sharo Hawraman,VG
+8,Fanny Johansson,VG
+9,Oliver Kalthoff,VG
+10,Isac Larsen,VG
+11,Mahmoud Selman,VG
