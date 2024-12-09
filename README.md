@@ -64,7 +64,7 @@ The project is structured as follows:
 student-management/
 ├── src/
 │   ├── main/
-│   │   
+│   │       │   └── StudentManagementSystem.java
 │   ├── service/
 │   │       │   ── StudentService.java
 │   ├── model/
@@ -72,10 +72,9 @@ student-management/
 │   ├── util/
 │   │       │   ├── FileHandler.java
 │   │       │   └── LoggerUtil.java
-│   └── main/
-│          └── StudentManagementSystem.java
-└── resources/
-    └── students.txt              // Stores student data
+│   └── resources/
+            └── students.txt  // Stores student data
+        
 ```
 
 ### Module Descriptions
