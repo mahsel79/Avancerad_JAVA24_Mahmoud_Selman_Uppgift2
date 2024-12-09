@@ -64,16 +64,16 @@ The project is structured as follows:
 student-management/
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   ├── service/
-│   │   │   │   └── StudentService.java
-│   │   │   ├── model/
-│   │   │   │   └── Student.java
-│   │   │   ├── util/
-│   │   │   │   ├── FileHandler.java
-│   │   │   │   └── LoggerUtil.java
-│   │   │   └── main/
-│   │   │       └── StudentManagementSystem.java
+│   │   
+│   ├── service/
+│   │       │   ── StudentService.java
+│   ├── model/
+│   │       │   └── Student.java
+│   ├── util/
+│   │       │   ├── FileHandler.java
+│   │       │   └── LoggerUtil.java
+│   └── main/
+│          └── StudentManagementSystem.java
 └── resources/
     └── students.txt              // Stores student data
 ```
