@@ -73,7 +73,7 @@ student-management/
 │   │       │   ├── FileHandler.java
 │   │       │   └── LoggerUtil.java
 │   └── resources/
-            └── students.txt  // Stores student data
+└── logs        └── students.txt  // Stores student data
         
 ```
 

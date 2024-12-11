@@ -9,3 +9,4 @@
 9,Oliver Kalthoff,VG
 10,Isac Larsen,VG
 11,Mahmoud Selman,VG
+12,New student,VG
